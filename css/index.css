@@ -191,7 +191,8 @@ label.precios__option::before{
         max-width: 632px;
         margin: auto;
         grid-template-columns: repeat( 2, 284px);
-        gap: 40px;
+        column-gap: 40px;
+        row-gap: 72px;
     }
 }
 @media screen and (max-width: 720px) {
